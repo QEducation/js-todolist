@@ -1,0 +1,126 @@
+*{
+
+    margin:0;
+    padding:0;
+
+}
+body{
+
+    height:100%;
+
+}
+
+#main{
+
+    background-color:lightgrey;
+    background-image:url('https://wallpapercave.com/wp/wp1821210.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+
+
+}
+
+.input_container{
+
+    position:absolute;
+    width:50%;
+    top:25%;
+    left:10%;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+
+
+}
+.input{
+
+    width:100%;
+    padding:10px;
+    margin:10px;
+    font-size:25px;
+    border:none;
+    border-radius:10px;
+}
+
+.addButton{
+
+    width:10%;
+    margin:10px;
+    padding:10px;
+    border:none;
+    border-radius:10px;
+    background-color:lightgreen;
+
+}
+.data_container{
+
+    position:absolute;
+    padding-top:30px;
+    border:none;
+    border-radius:10px;
+    top:30%;
+    left:10%;
+    width:58%;
+}
+
+.item{
+
+
+        display:flex;
+        flex-direction:row;
+}
+.item_input{
+
+    width:100%;
+    padding:10px;
+    margin:10px;
+    border:none;
+    border-radius:10px
+}
+.editButton{
+
+
+    width:10%;
+    margin:10px;
+    padding:10px;
+    border:none;
+    border-radius:10px;
+    background-color:lightgrey;
+
+}
+.removeButton{
+
+
+    width:15%;
+    margin:10px;
+    padding:10px;
+    border:none;
+    border-radius:10px;
+    background-color:coral;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
